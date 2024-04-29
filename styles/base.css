@@ -1,43 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer, nav {background-color: #bbb;}
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
   }
-  
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-  
-  @media (min-width: 768px) {
-    main {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-/* Basic styling for the cards */
-.card {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 10px;
+
+h1 {
+    font-weight: 100;
+    font-size: 2rem;
 }
 
-/* Grid layout */
-.main-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
-    gap: 20px;
+nav ul {
+    list-style-type: none;
 }
 
-/* Learning Activities card */
-.learning-card {
-    background-color: #f9f9f9;
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
 }
 
-/* Information card */
-.info-card {
-    background-color: #e0e0e0;
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
-  
+nav .active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
