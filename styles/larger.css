@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+    }
+
+
+
+
+    .card section {
+        box-shadow: 1px 1px 10 px black;
+    }
+}
