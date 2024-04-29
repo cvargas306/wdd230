@@ -1,14 +1,24 @@
 header{
     display: flex;
     flex-direction: column;
+    background-color: #415541;
     align-items: center;
+    color: #fff;
 }
-footer,
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #415541;
+    text-align: center;
+    color: #fff;
+}
+
 nav {
     display: flex;
     flex-direction: column;
     background-color: #bbb;
     text-align: center;
+
 }
 
 body {
