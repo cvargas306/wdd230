@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    main {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+/* Basic styling for the cards */
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Grid layout */
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 20px;
+}
+
+/* Learning Activities card */
+.learning-card {
+    background-color: #f9f9f9;
+}
+
+/* Information card */
+.info-card {
+    background-color: #e0e0e0;
+}
+
+  
