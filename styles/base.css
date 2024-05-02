@@ -1,11 +1,12 @@
-header{
+header {
     display: flex;
     flex-direction: column;
     background-color: #415541;
     align-items: center;
     color: #fff;
 }
-footer{
+
+footer {
     display: flex;
     flex-direction: column;
     background-color: #415541;
@@ -36,6 +37,9 @@ h1 {
 
 nav ul {
     list-style-type: none;
+    padding: 0;
+    display: flex;
+
 }
 
 nav a {
