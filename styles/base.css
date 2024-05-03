@@ -1,9 +1,10 @@
 header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #415541;
     align-items: center;
     color: #fff;
+    justify-content: center;
 }
 
 footer {
