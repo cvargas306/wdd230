@@ -1,14 +1,11 @@
-
-
-
-body{
+body {
 
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-header{
+header {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -23,9 +20,10 @@ header{
 header {
   display: flex;
   flex-direction: row;
-  background-color: #4B0082;
+  background-color: #07beb8;
   align-items: center;
-  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  color: #000000;
   justify-content: center;
   gap: 20px;
   padding: 10px 0px;
@@ -34,30 +32,24 @@ header {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #4B0082;
+  background-color: #07beb8;
   text-align: center;
-  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  color: #000000;
 }
 
 nav {
   display: flex;
   flex-direction: column;
-  background-color: #4B0082;
+  background-color: #9ceaef;
   text-align: center;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   margin: 0;
   padding: 0;
-}
-
-h1 {
-  font-weight: 400;
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 50px;
 }
 
 nav ul {
@@ -67,7 +59,6 @@ nav ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
 }
 
 
@@ -94,23 +85,27 @@ main {
   margin: 1rem 2vw
 }
 
+.hero {
+  width: 100%;
+}
+
 .sections {
   display: grid;
-  background-color: #fff;
+  background-color: #ffffff;
 
 }
 
 .card {
-  border: 1px solid #4B0082;
-  background-color: transparent;
+  border: 1px solid #07beb8;
+  background-color: #9ceaef;
   border-radius: 10px;
   overflow: hidden;
   margin: 1rem 0;
 }
 
 .card h2 {
-  background-color: #4B0082;
-  color: #fff;
+  background-color: #07beb8;
+  color: #000000;
   font-weight: 400;
   display: block;
   text-align: center;
@@ -127,7 +122,7 @@ main {
   font-size: 1.5rem;
   border: 0;
   background: none;
-  color: #000;
+  color: #9CEAEF;
   float: right;
 }
 

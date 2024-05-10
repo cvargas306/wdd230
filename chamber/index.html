@@ -7,6 +7,11 @@
     <meta name="description"
         content="WDD 230 - Web Frontend Development. Carlos Vargas Badilla. Chamber of Commerce Project">
     <meta name="author" content="Carlos Vargas Badilla">
+    <meta property="og:title" content="Carlos Vargas - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image"content="https://es.m.wikipedia.org/wiki/Archivo:Parque_de_Tres_R%C3%ADos_%28La_Uni%C3%B3n%29.jpg">
+
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
@@ -15,8 +20,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -28,31 +31,55 @@
         </div>
     </header>
     <button id="menu"></button>
+    <nav class="navigation">
+        <a class="active" href="" title="Home">Home</a>
+        <a href="#">Us</a>
+        <a href="#">Services</a>
+        <a href="#">Join</a>
+        <a href="#">Events</a>
+        <a href="#">Contact Us</a>
+    </nav>
     <main>
         <div class="sections">
-            <section class="Join">
+            <img class="hero" src="images/hero.jpeg" alt="Main image">
+
+            <section class="card">
                 <h2>Join to La Union Chamber</h2>
                 <ul>
                     <li><a href="#">Complete a Form</a></li>
                 </ul>
             </section>
-            <section class="events">
+            <section class="card">
                 <h2>Coming Events</h2>
             </section>
 
 
-            <section class="weather">
+            <section class="card">
                 <h2>Wheather Update</h2>
                 <p>Weather forecast: </p>
             </section>
 
+            <section class="card">
+                <h2>Member Sporlights</h2>
+                <p>Health fair</p>
+                <p>Concert for new generations</p>
+                <p>Folkloric evening</p>
+            </section>
+
+
+
     </main>
     <footer>
+        <p>La Union Commerce<br>Tres Rios, La Union, Cartago<br>info@launioncommerce.org<br>+506 1986-3006</p>
         <p>
-            &copy; <span id="currentYear"></span> 🎹Carlos Vargas, Costa Rica🎹
+            &copy; <span id="currentYear"></span> La Union Commerce | Carlos Vargas WDD230 Course Project |
         </p>
         <p id="lastModified"></p>
     </footer>
+
+    <script src="scripts/getDates.js" type="text/javascript"></script>
+    <script src="scripts/menu.js" type="text/javascript"></script>
+    <script src="scripts/darkMode.js" type="text/javascript"></script>
 
     
 </body>
