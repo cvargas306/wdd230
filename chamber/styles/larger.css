@@ -23,4 +23,14 @@
 		display: block;
 		flex: 1 1 100%;
 	}
+
+    .sections {
+        grid-template-columns: 70% 30%;
+        gap: 10px;
+    }
+
+    .spotlights {
+        grid-template-columns: 33% 33% 33%;
+        gap: 10px
+    }
 }

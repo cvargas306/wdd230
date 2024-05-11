@@ -86,10 +86,35 @@ main {
 }
 
 .hero {
+  position: relative;
+  background-image: url('images/hero.jpeg');
+  background-size: cover;
+}
+
+.hero a {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  background: white;
+  padding: 20px 40px;
+  font-size: large;
+  border: white;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+
+.heroImage {
   width: 100%;
 }
 
 .sections {
+  display: grid;
+  background-color: #ffffff;
+
+}
+
+.spotlights {
   display: grid;
   background-color: #ffffff;
 
