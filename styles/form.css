@@ -1,0 +1,63 @@
+main {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+:root {
+    --inactive:  rgb(229, 242, 233);
+    --active: rgb(138, 163, 146);
+    
+}
+
+p {
+    margin-left: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+input {
+    margin: 10px 0;
+    padding-left: 10px;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid rgb(0, 91, 30);
+    background-color: var(--inactive);
+}
+
+input:focus {
+    background-color: var(--active);
+    outline: 0;
+}
+
+.required::after {
+    content: "🔑";
+}
+
+#rangevalue {
+    font-size: 50px;
+}
+
+#rangevalue::after {
+    content: "⭐";
+}
+
+input[type="range"] {
+    accent-color: purple;
+    color: purple;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    border: 0;
+    height: 30px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--active);
+}

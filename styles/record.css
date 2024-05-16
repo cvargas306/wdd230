@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+html {
+    --base-color: aquamarine;
+    --background-color: white;
+    --text-color: black;
+    --accent-color: blue;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--background-color);
+
+    min-height: 100%;
+
+    text-align: center;
+}
+
+div {
+    padding-top: 500px;
+}
