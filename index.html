@@ -42,11 +42,16 @@
     </nav>
 
     <main>
-        <picture>
-            <source srcset="images/temple.webp" media="(max-width:800px)">
-            <img src="images/temple.jpg" alt="Carlos Vargas" width="1278" height="800">
+        <div class="hero">
+            <picture>
+                <source srcset="images/temple-mobile.webp" media="(max-width:400px)">
+                <source srcset="images/temple-desktop.webp" media="(max-width:900px)">
+                <img class="hero-image" src="images/temple-desktop.webp" alt="Costa Rica Temple" width="350"
+                    height="175" loading="lazy">
+            </picture>
 
-        </picture>
+        </div>
+
         <h1>
             WDD 230: Web Frontend Development
         </h1>
