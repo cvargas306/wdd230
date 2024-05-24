@@ -68,6 +68,43 @@ nav .active {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.hero {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.hero picture {
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background: solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, .75);
+    padding: 1rem;
+    box-shadow: 0 0 3rem #919090;
+    opacity: 0.90;
+    border-radius: 20px;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 500;
+    font-size: 1rem;
+    width: 100%;
+    color: antiquewhite;
+    font-family: "ubuntu", serif;
+}
+
 main {
     /*display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
@@ -150,4 +187,16 @@ main {
 #mode {
     background-color: white;
     cursor: pointer;
+}
+
+.map {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.map iframe {
+    width: 80%;
+    min-width: 300px;
+    max-width: 600px;
 }

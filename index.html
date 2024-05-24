@@ -26,7 +26,7 @@
 
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Carlos Vargas Profile" width="120" height="140">
+        <img src="images/profile.webp" alt="Carlos Vargas Profile" width="120" height="140">
         <span>Carlos Vargas</span>
         <div id="mode">
             🕶️
@@ -44,11 +44,14 @@
     <main>
         <div class="hero">
             <picture>
-                <source srcset="images/temple-mobile.webp" media="(max-width:400px)">
-                <source srcset="images/temple-desktop.webp" media="(max-width:900px)">
-                <img class="hero-image" src="images/temple-desktop.webp" alt="Costa Rica Temple" width="350"
-                    height="175" loading="lazy">
+                <source srcset="images/temple-small.webp" media="(max-width:500px)">
+                <source srcset="images/temple-medium.webp" media="(max-width:900px)">
+                <img class="hero img" src="images/temple-large.webp" alt="Costa Rica Temple" width="1100"
+                    height="500" loading="lazy">
             </picture>
+            <div class="herolabel">
+                <p>Costa Rica Temple</p>
+            </div>
 
         </div>
 
@@ -74,6 +77,11 @@
         </div>
 
     </main>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25274.93583814916!2d-84.00292221991161!3d9.919241938777578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e122b91eb14b%3A0x2da0a79a434bc5d2!2sProvincia%20de%20Cartago%2C%20La%20Uni%C3%B3n!5e0!3m2!1ses!2scr!4v1716517779734!5m2!1ses!2scr" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
     <footer>
         <p>
             &copy; <span id="currentYear"></span> 🎹Carlos Vargas, Costa Rica🎹

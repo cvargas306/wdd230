@@ -41,4 +41,8 @@
 		display: block;
 		flex: 1 1 100%;
 	}
+
+    .herolabel p {
+        font-size: 2rem;
+    }
 }
