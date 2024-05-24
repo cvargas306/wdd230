@@ -102,7 +102,7 @@ nav .active {
     font-size: 1rem;
     width: 100%;
     color: antiquewhite;
-    font-family: "ubuntu", serif;
+    font-family: "roboto", serif;
 }
 
 main {
@@ -124,6 +124,7 @@ main {
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
+
 }
 
 .card h2 {
@@ -137,6 +138,11 @@ main {
 
 .card p {
     padding: 10px;
+
+}
+
+.card div {
+    text-align: center;
 }
 
 
