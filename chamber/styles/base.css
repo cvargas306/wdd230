@@ -203,10 +203,11 @@ main {
   z-index: 0;
   padding: 0 10px;
   background-color: rgba(87, 87, 87, 0.651);
+  color: #fff
 }
 
 .clips {
   width: 100%;
   min-height: 300px;
-  object-fit: cover; 
+  object-fit: cover;
 }
