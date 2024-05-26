@@ -190,3 +190,23 @@ main {
   background-color: white;
   cursor: pointer;
 }
+
+.atractions {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 10%;
+  z-index: 0;
+  padding: 0 10px;
+  background-color: rgba(87, 87, 87, 0.651);
+}
+
+.clips {
+  width: 100%;
+  min-height: 300px;
+  object-fit: cover; 
+}

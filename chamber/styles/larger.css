@@ -33,4 +33,30 @@
         grid-template-columns: 33% 33% 33%;
         gap: 10px
     }
+
+    main .gallery {
+        grid-column: 2 / 4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4px;
+    }
+
+    .sidebar {
+        grid-row: 1 / 4;
+        grid-row: 2;
+    }
+
+    .gallery:hover .clips:not(.clips:hover) {
+        filter: blur(5px);
+        transition: all 0.3s;
+    }
+
+    .clips:hover {
+        filter: blur(0);
+        transition: all 0.3s;
+        transform: scale(1.2);
+    }
+
+
+
 }
