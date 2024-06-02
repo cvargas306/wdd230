@@ -249,7 +249,7 @@ input:focus {
 textarea {
   margin: 10px 0;
   padding: 10px;
-  border: 0;
+  border: 1;
   border-bottom: 1px solid rgb(0, 91, 30);
   background-color: rgba(0, 0, 0, 0);
   color: var(--text-color);
@@ -314,7 +314,7 @@ table {
   margin: auto;
   width: 200px;
   background-color: var(--background-color);
-  font-family: arial, sans-serif;
+  font-family: "Ubuntu", sans-serif;
   border-collapse: collapse;
 }
 
