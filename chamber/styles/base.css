@@ -211,3 +211,119 @@ main {
   min-height: 300px;
   object-fit: cover;
 }
+
+.form-section {
+  grid-row: 1 / 2;
+  min-width: 40%;
+  max-width: 500px;
+  margin: 0 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section p {
+  align-self: flex-end;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+input {
+  margin: 10px 0;
+  padding-left: 10px;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid rgb(0, 91, 30);
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--text-color);
+}
+
+input:focus {
+  background-color: var(--active);
+  outline: 0;
+}
+
+textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 0;
+  border-bottom: 1px solid rgb(0, 91, 30);
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--text-color);
+  resize: none;
+}
+
+textarea:focus {
+  background-color: var(--active);
+  outline: 0;
+}
+
+select {
+  margin: 10px 0;
+  padding-left: 10px;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid rgb(0, 91, 30);
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--text-color);
+}
+
+select:focus {
+  background-color: var(--active);
+  outline: 0;
+}
+
+.required::after {
+  content: "✴️";
+}
+
+#rangevalue {
+  font-size: 50px;
+}
+
+#rangevalue::after {
+  content: "🏆";
+}
+
+input[type="range"] {
+  accent-color: var(--accent-color);
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  border: 0;
+  height: 30px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--active);
+}
+
+.benefits {
+  z-index: -1;
+  width: 100%;
+  align-items: center;
+}
+
+table {
+  margin: auto;
+  width: 200px;
+  background-color: var(--background-color);
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid var(--active);
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--active);
+}
