@@ -1,0 +1,29 @@
+{
+    "familyName" : "Vargas",
+    "translationDate" : 2022,
+    "secretBase" : "Super tower",
+    "bishopricVisit" : true,
+    "familyMembers" : [
+
+        {
+            "name": "Juan",
+            "gender": "Male",
+            "birthdate": 915148800
+          },
+          {
+            "name": "Sara",
+            "gender": "Female",
+            "birthdate": 978307200
+          },
+          {
+            "name": "Felipe",
+            "gender": "Male",
+            "birthdate": 1041379200
+          },
+          {
+            "name": "Esther",
+            "gender": "Female",
+            "birthdate": 1104537600
+      }
+    ]
+  }
