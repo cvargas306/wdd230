@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color:white;
+    background-color: rgb(7, 7, 46);
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+
+.card {
+    background-color: rgb(7, 7, 46);
+    color:white;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px black;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.card p {
+    color: rgb(206, 193, 176);
+}
