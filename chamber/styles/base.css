@@ -342,6 +342,7 @@ tr:nth-child(even) {
   border-radius: 2px;
   margin: 0 5px;
   cursor: pointer;
+  background-color: #f9f9f9;
 }
 
 /* Grid view styles */
@@ -396,7 +397,7 @@ tr:nth-child(even) {
   margin: 0;
   padding: 10px;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
 }
 
 .list section img {
