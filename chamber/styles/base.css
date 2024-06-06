@@ -114,11 +114,11 @@ main {
 
 }
 
-.spotlights {
+/*.spotlights {
   display: grid;
   background-color: #ffffff;
 
-}
+}*/
 
 .card {
   border: 1px solid #07beb8;
@@ -140,6 +140,43 @@ main {
 .card p {
   padding: 10px;
 }
+
+/* new spotlights styling*/
+.banner {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.banner p {
+  margin: 0;
+}
+
+.banner button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.spotlight {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.spotlight section {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
 
 
 /* small view navigation */
@@ -449,6 +486,14 @@ section p {
 .gold::after {
   content: "🥇";
 }
+
+.member-image {
+  width: 150px; 
+  height: 100px; 
+  object-fit: cover; 
+}
+
+
 
 @keyframes glow {
   0%, 100% {
