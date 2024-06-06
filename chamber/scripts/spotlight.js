@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const spotlightContainer = document.getElementById("spotlight");
     const membersURL = "https://cvargas306.github.io/wdd230/chamber/data/members.json";
 
+
+    
+
     
     const today = new Date();
     const dayOfWeek = today.getDay();
