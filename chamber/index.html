@@ -58,7 +58,12 @@
 
             <section class="card">
                 <h2>Wheather Update</h2>
-                <p>Weather forecast: </p>
+                <p>The current temperature is <span id="current-temp">&deg;C</span></p>
+                    <figure>
+                        <img id="weather-icon" src="#" alt="weather event icon" loading="lazy" width="50" height="50">
+                        <figcaption></figcaption>
+                    </figure>
+                    <div id="forecast"></div>
             </section>
         </div>
 
@@ -83,10 +88,10 @@
             </section>
         </div>
 
-
-
     </main>
     <footer>
+        <span>Number of Visits: </span>
+                    <span class="visits"></span>
         <p>La Union Commerce<br>Tres Rios, La Union, Cartago<br>info@launioncommerce.org<br>+506 1986-3006</p>
         <p>
             &copy; <span id="currentYear"></span> La Union Commerce | Carlos Vargas WDD230 Course Project |
