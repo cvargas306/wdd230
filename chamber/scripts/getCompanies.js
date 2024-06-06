@@ -1,4 +1,4 @@
-const companiesURL = "https://TheJStar.github.io/wdd230/chamber/data/members.json";
+const companiesURL = "https://cvargas306.github.io/wdd230/chamber/data/members.json";
 
 async function getCompanies(url) {
     try {
