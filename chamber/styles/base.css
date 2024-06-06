@@ -327,3 +327,135 @@ td, th {
 tr:nth-child(even) {
   background-color: var(--active);
 }
+
+
+.card-view {
+  grid-column: 1 / 2;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.card-view button {
+  height: 44px;
+  width: 100px;
+  border: 0;
+  border-radius: 2px;
+}
+
+
+.grid {
+  grid-column: 1 / 2;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+grid-gap: 5px;
+align-items: start;
+}
+
+.grid section {
+text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.grid h2 {
+  font-size: large;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.grid img {
+display: block;
+  margin: 5px auto;
+}
+
+.grid p {
+  margin: 5px 0;
+}
+
+.list {
+  grid-column: 1 / 2;
+display: flex;
+flex-direction: column;
+}
+
+.list section {
+display: grid;
+grid-template-columns: 1fr;
+  box-shadow: none;
+  border-radius: 0;
+margin: 0;
+  padding: 10px;
+  border: 0;
+}
+
+.list h2 {
+  border-radius: 0;
+}
+
+.list section img {
+display: none;
+}
+
+.list section:nth-child(even) {
+background-color: rgba(0, 128, 85, 0.534);
+}
+
+section p {
+font-weight: 600;
+font-size: smaller;
+}
+
+.grid h3, .list h3 {
+  text-transform: capitalize;
+}
+
+.grid section a, .list section a {
+color: rgb(0, 32, 23);
+}
+
+.dark .grid section a, .dark .list section a {
+color: rgb(133, 255, 218);
+}
+
+.grid img {
+height: 75px;
+max-width: 100%;
+  border-radius: 5px;
+}
+
+.bronze {
+  border-bottom: 2px solid rgb(121, 85, 38);
+}
+
+.silver {
+  border-bottom: 2px solid rgb(212, 208, 208);
+}
+
+.gold {
+  border-bottom: 2px solid gold;
+}
+
+.bronze::before {
+  content: "🥉";
+}
+
+.silver::before {
+  content: "🥈";
+}
+
+
+.gold::before {
+  content: "🥇";
+}
+
+
+@keyframes glow {
+  0%, 100% {
+      box-shadow: 0 0 30px white;
+  }
+  50% {
+      box-shadow: 0 0 50px white;
+  }
+}
