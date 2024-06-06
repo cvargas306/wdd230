@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Banco de Costa Rica",
+            "address": " 150 Mts West from Bancrédito La Unión, Cartago, CR",
+            "phoneNumber": "+506 2211 1111",
+            "websiteURL": "https://www.bancobcr.com/wps/portal/bcr",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/LOGO_BCR.svg",
+            "membershipLevel": "gold"
+        },
+        {
+            "name": "Universidad Florencio del Castillo",
+            "address": "75 Mts South from southeast corner of Tribunales de Justicia, Cartago, CR",
+            "phoneNumber": "+506 4000 4822",
+            "websiteURL": "https://uca.ac.cr/",
+            "image": "https://uca.ac.cr/wp-content/uploads/2017/01/logo-uca.png",
+            "membershipLevel": "silver"
+        },
+        {
+            "name": "Holcim Costa Rica",
+            "address": "5km south from Tribunales de Justicia, Agua Caliente, 231, Cartago, CR",
+            "phoneNumber": "+506 2205 2900",
+            "websiteURL": "https://www.holcim.cr/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuyvbgac1DyFeztkDY0R4xhYXZCQchgka_lg&s",
+            "membershipLevel": "bronze"
+        },
+        {
+            "name": "Terra Mall",
+            "address": "Autopista Florencio Del Castillo, San Diego, Cartago, CR",
+            "phoneNumber": "+506 2278 6842",
+            "websiteURL": "https://www.terramall.co.cr/",
+            "image": "https://terramall.co.cr/assets/images/icon.png",
+            "membershipLevel": "gold"
+        },
+        {
+            "name": "Rosti",
+            "address": "Next to Pali Cartago Oriental, Cartago, CR",
+            "phoneNumber": "+506 2277 0930",
+            "websiteURL": "https://www.rosti.cr/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCIMmU4T6NkjUTlbFv5lRHn8lOXA2NeC0hGA&s",
+            "membershipLevel": "bronze"
+        },
+        {
+            "name": "Grupo INS",
+            "address": "East side Plaza de Deportes Colegio San Luis Gonzaga, Cartago, CR",
+            "phoneNumber": "+506 2550 4000",
+            "websiteURL": "https://www.grupoins.com/",
+            "image": "https://www.elempleo.com/cr/sitio-empresarial/CompanySites/grupo-ins/resources/images/logo-social.png",
+            "membershipLevel": "gold"
+        },
+        {
+            "name": "Irex",
+            "address": "W2C6+J6J, Carretera Vieja a Cartago, Concepción, Cartago, CR",
+            "phoneNumber": "+506 2279 3333",
+            "websiteURL": "https://grupoirex.com/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVxC2ZYL8JWMu7ClP1Lvc76dpyMZ34VX09g&usqp=CAU",
+            "membershipLevel": "silver"
+        }
+    ]
+}
